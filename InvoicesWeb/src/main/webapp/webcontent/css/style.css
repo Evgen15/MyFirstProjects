@@ -1,0 +1,102 @@
+﻿* {
+    color: #2779AA;
+}
+button {
+    font-weight: bold;
+}
+h3 {
+    color: #000000;
+}
+p {
+    margin-top: 0;
+}
+select {
+    width: 200px;
+}
+th {
+    font-weight: bold;
+    border-bottom: 2px dashed;
+    padding: 12px 17px;
+}
+td {
+    padding: 10px 13px;
+}
+tr:hover td {
+    background: #ffef8f;
+}
+tr:hover .hideEditDelButtons {
+    display: block;
+    margin: auto;
+}
+.hideEditDelButtons {
+    display: none;
+}
+.resultTable {
+    margin: 0px 0px 0px 30px;
+}
+.searchInvoices {
+    font-weight: bold;
+    border: 2px dotted;
+    width: 480px;
+    margin: 0px 0px 10px 0px;
+    padding: 10px;
+}
+.period div + div {
+    margin-left: 10px;
+}
+.period div {
+    display: inline-block;
+}
+.error {
+    background-image: url(../images/error.png);
+    background-size: 100%;
+}
+.numberDateInvoice div + div {
+    margin-left: 20px;
+}
+.numberDateInvoice div {
+    font-weight: bold;
+    margin: 10px 0px 20px 0px;
+    display: inline-block;
+}
+.seller {
+    font-weight: bold;
+    border: 2px solid;
+    width: 660px;
+    margin: 0px 0px 30px 0px;
+    display: inline-block;
+}
+.seller div {
+    padding: 10px;
+}
+.tableLines {
+    width: 665px;
+    border: 2px solid;
+}
+.tableLines caption {
+    font-weight: bold;
+    text-align: left;
+    margin: 0px 0px 5px 0px;
+}
+.tableLines th {
+    font-weight: bold;
+    border-bottom: 2px dotted;
+    padding: 12px 17px;
+}
+.totalSum {
+    font-weight: bold;
+    margin: 15px 0px 15px 455px;
+}
+.totalSum input {
+    background: #f0f8ff;
+    border: 1px solid grey;
+}
+.iconsPlusMinus div + div {
+    margin-left: 20px;
+}
+.iconsPlusMinus div {
+    display: inline-block;
+}
+.buttonsSaveCancel {
+    margin: 15px 0px 15px 0px;
+}

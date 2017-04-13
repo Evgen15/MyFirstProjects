@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+    <comment>DB PostgreSQL Config XML file</comment>
+    <entry key="driver">org.postgresql.Driver</entry>
+    <entry key="url">jdbc:postgresql://localhost:5432/gera_invoices</entry>
+    <entry key="user">postgres</entry>
+    <entry key="password">123456</entry>
+</properties>
